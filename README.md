@@ -9,12 +9,12 @@
         autoSlider = KAutoSlider(to: self)
         autoSlider.images = [#imageLiteral(resourceName: "l1"),#imageLiteral(resourceName: "l2"),#imageLiteral(resourceName: "l3")]
         autoSlider.animationType = .alpha // .alpha,translation,scale
+        autoSlider.start()
 ```
 
-##### Start,stop,remove
+##### Stop & remove
 
 ```Swift
-    autoSlider.start()
     autoSlider.stop()
     autoSlider.remove()
 ```
